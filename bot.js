@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const tpoints = {};
 const vpoints = {};
 const jimp = require("jimp");
+const moment = require("moment");  
 const prefix = "?";
 const client = new Discord.Client();
 
