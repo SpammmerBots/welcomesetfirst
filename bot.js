@@ -61,7 +61,6 @@ client.on('message', message => {
 
 
 const sWlc = {}
-const premium = ['519248442334380033']
 client.on('message', message => {
 var prefix = "?";
 if(message.channel.type === "dm") return;
